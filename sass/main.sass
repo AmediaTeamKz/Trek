@@ -20,6 +20,8 @@ body
 		left: 0
 		background: rgba(255,255,255, 0.7)
 		z-index: -1
+.visible-xs
+	display: none
 .top
 	padding: 22px 0
 	background-color: #2272D8
@@ -74,7 +76,7 @@ body
 		grid-gap: 15px
 		.block
 			background: #fff
-			height: 615px
+			height: 635px
 			position: relative	
 			h2
 				text-transform: uppercase
@@ -82,7 +84,7 @@ body
 				text-align: center
 				color: #fff
 				font-family: Arial
-				padding: 35px 0
+				padding-top: 15px
 				// &:after
 					content: ''
 					width: 100%
@@ -93,7 +95,7 @@ body
 					margin: auto
 					bottom: -35px
 			.block-head
-				padding: 0 23px
+				padding: 25px
 				background: #2272D8
 				margin: 30px
 				img
@@ -102,7 +104,7 @@ body
 					display: block
 					margin: auto
 			.block-body
-				height: 215px
+				height: 190px
 				padding: 0 40px
 				p
 					font-size: 18px
@@ -135,26 +137,33 @@ body
 					margin: auto
 					text-transform: uppercase
 					margin-bottom: 35px
-					padding: 28px 0
-					background: #2272D8
+					padding: 18px 0
+					background: #FF2222
 					width: 75%
 					border-radius: 5rem
 					transition: 0.6s
 					cursor: pointer
 					&:hover
-						background: #FF2222
+						background: #2272D8
 footer
 	padding: 15px 0
 	background: #2272D8
 	p
 		text-align: center
 		margin: 0
+		margin-top: 10px
 		a
 			font-size: 18px
 			text-transform: uppercase
 			color: #fff
 			font-weight: bold
-
+.soc
+	width: 50%
+	margin: auto
+	img
+		width: 28px
+		height: 28px
+		margin: auto
 .wrap-modal
 	background: rgba(0, 0, 0, 0.5)
 	position: fixed
